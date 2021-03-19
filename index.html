@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quimica Monstro</title>
+    <link rel="stylesheet" href="./styles/style.css" type="text/css">
+</head>
+
+
+<body>
+    <header>
+        
+        <h1 class="pag">Escrava da Química</h1>
+        <h2 class="pag">Cálculos</h2>
+
+
+    </header>
+    
+    <div class="container">
+
+        <h3>Molaridade (mol/L)</h1>
+
+
+        <form action="calculando">
+        <input class="caixas" id="massa" name="massa" type="number" placeholder="Massa (g)">
+        <input class="caixas" id="massamolar" name="massamolar" type="number" placeholder="Massa Molar (g/mol)" >
+        <input class="caixas" id="volume" name="volume" type="number" placeholder="Volume (Litros)">     
+        <input class="butao" type="reset" value="Limpar">
+        </form> 
+        <button class="butao" onclick="calcular()">Calcular</button>       
+
+        <div id="resultado">              
+
+        </div>
+
+    </div>
+
+    
+    
+    <script src="./scripts/script.js"></script>
+
+    <div></div>
+</body>
+
+</html>
+
